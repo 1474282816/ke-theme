@@ -1,0 +1,40 @@
+{
+  "name": "@ke/ke-theme",
+  "version": "1.0.2",
+  "description": "ke 主题配置",
+  "main": "./src/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "prettier --write '**/*.ts'",
+    "compile": "npm run tsc && node scripts/generateLess.js",
+    "jest": "jest",
+    "test": "npm run lint && npm run tsc && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeup.aliyun.com/60422c40e55ebe2b8467faf0/knowledge-frontend-common/ke-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "antd"
+  ],
+  "author": "cheryl.lin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^26.0.1",
+    "@types/less": "^3.0.0",
+    "@types/node": "^14.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^26.0.1",
+    "less": "^3.9.0",
+    "prettier": "^2.0.1",
+    "typescript": "^4.0.2"
+  }
+}

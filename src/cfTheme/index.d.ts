@@ -1,0 +1,25 @@
+declare const _default: {
+    "error-color": string;
+    "primary-color": string;
+    "table-header-bg": string;
+    "table-header-color": string;
+    "table-row-hover-bg": string;
+    "input-height-base": string;
+    "input-padding-horizontal-base": string;
+    "input-border-color": string;
+    "input-hover-border-color": string;
+    "input-placeholder-color": string;
+    "input-color": string;
+    "input-disabled-bg": string;
+    "input-disabled-color": string;
+    "icon-color": string;
+    "btn-square-only-icon-size": string;
+    "select-item-selected-color": string;
+    "select-item-selected-bg": string;
+    "select-item-active-bg": string;
+    "pagination-item-size": string;
+    "tabs-horizontal-padding": string;
+    "tabs-active-color": string;
+    "tabs-hover-color": string;
+};
+export default _default;
