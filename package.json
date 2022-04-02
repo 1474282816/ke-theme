@@ -1,7 +1,7 @@
 {
-  "name": "@ke/ke-theme",
+  "name": "ke-theme",
   "version": "1.0.2",
-  "description": "ke 主题配置",
+  "description": "ke主题配置",
   "main": "./src/index.js",
   "scripts": {
     "tsc": "tsc",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://codeup.aliyun.com/60422c40e55ebe2b8467faf0/knowledge-frontend-common/ke-theme.git"
+    "url": "https://github.com/1474282816/ke-theme.git"
   },
   "keywords": [
     "theme",
